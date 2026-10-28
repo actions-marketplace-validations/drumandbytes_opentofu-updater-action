@@ -1,6 +1,48 @@
 # Changelog
 
-## [Unreleased]
+## [1.0.6](https://github.com/drumandbytes/opentofu-updater-action/compare/v1.0.5...v1.0.6) (2026-10-27)
+
+
+### Bug Fixes
+
+* retry registry lookups, 60s timeout, report lookup failures ([#29](https://github.com/drumandbytes/opentofu-updater-action/issues/29)) ([278c728](https://github.com/drumandbytes/opentofu-updater-action/commit/278c728f776c7728cdabf317fdf9876e16618491))
+
+## [1.0.5](https://github.com/drumandbytes/opentofu-updater-action/compare/v1.0.4...v1.0.5) (2026-09-21)
+
+
+### Performance Improvements
+
+* **updater:** cache Helm index requests by repo URL ([#21](https://github.com/drumandbytes/opentofu-updater-action/issues/21)) ([c7beadb](https://github.com/drumandbytes/opentofu-updater-action/commit/c7beadb7c870f22f46cabd23553ebf9ba64a3cda))
+
+## [1.0.4](https://github.com/drumandbytes/opentofu-updater-action/compare/v1.0.3...v1.0.4) (2026-09-20)
+
+
+### Bug Fixes
+
+* drop paths-ignore from the workflow hosting the required-check gate ([#18](https://github.com/drumandbytes/opentofu-updater-action/issues/18)) ([48f0355](https://github.com/drumandbytes/opentofu-updater-action/commit/48f035571601a226c70c87cccb0739163cb2680e))
+
+## [1.0.3](https://github.com/drumandbytes/opentofu-updater-action/compare/v1.0.2...v1.0.3) (2026-09-06)
+
+
+### Bug Fixes
+
+* **ci:** opt into app-token merge, so releases actually finish ([#13](https://github.com/drumandbytes/opentofu-updater-action/issues/13)) ([4db57b9](https://github.com/drumandbytes/opentofu-updater-action/commit/4db57b9d85eb1381f7f95d49b53f554c221d7a20))
+
+## [1.0.2](https://github.com/drumandbytes/opentofu-updater-action/compare/v1.0.1...v1.0.2) (2026-09-04)
+
+
+### Bug Fixes
+
+* **ci:** use v5 bare output names for the tag-move step ([#7](https://github.com/drumandbytes/opentofu-updater-action/issues/7)) ([a270b35](https://github.com/drumandbytes/opentofu-updater-action/commit/a270b35c1e422077f0e5e684461749c9115cd9cd))
+
+## [1.0.1](https://github.com/drumandbytes/opentofu-updater-action/compare/v1.0.0...v1.0.1) (2026-09-04)
+
+
+### Bug Fixes
+
+* **deps:** bump the actions group with 2 updates ([#5](https://github.com/drumandbytes/opentofu-updater-action/issues/5)) ([8812249](https://github.com/drumandbytes/opentofu-updater-action/commit/88122491b39fdbddb5fd18bc085e3d198845a571))
+
+## [1.0.0] - 2026-07-21
 
 ### Fixed
 - Use Python to write multiline `GITHUB_OUTPUT` instead of bash heredoc — shell heredoc parsing is fragile regardless of delimiter choice; Python file writes are not subject to these issues

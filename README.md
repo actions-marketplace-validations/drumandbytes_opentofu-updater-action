@@ -1,5 +1,11 @@
 # opentofu-updater-action
 
+[![GitHub Marketplace](https://img.shields.io/badge/marketplace-opentofu--updater-blue?logo=github)](https://github.com/marketplace/actions/opentofu-updater)
+[![CI](https://github.com/drumandbytes/opentofu-updater-action/actions/workflows/ci.yml/badge.svg)](https://github.com/drumandbytes/opentofu-updater-action/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+[More Drumandbytes projects](https://drumandbytes.com/projects/?ref=opentofu-updater-action-readme)
+
 A GitHub Action that keeps your OpenTofu/Terraform code up to date by automatically opening PRs when new versions are available for:
 
 - **Providers** — via the OpenTofu registry API
@@ -69,3 +75,7 @@ Major version bumps are never applied automatically — they appear in the PR bo
 ## Related
 
 - [argocd-gitops-updater-action](https://github.com/drumandbytes/argocd-gitops-updater-action) — auto-updates container image tags in ArgoCD GitOps repos
+
+## How it was made
+
+Built with the help of an AI coding assistant (Claude). I review and test what gets published.
